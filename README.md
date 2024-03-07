@@ -14,6 +14,7 @@ The data set was trained on a VAE architecture with the following parameters:
 ```
 Learning Rate: 3e-4
 Optimizer: Adam
+Loss: Binary Cross Entropy + KL Divergence
 Epochs: 20
 ```
 ### Result:
