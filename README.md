@@ -10,38 +10,39 @@ Thus, We use Autoencoders which are a class of neural networks that learn the in
 2. Show a side-by-side comparison of original and reconstructed events.
 
 ## Training and result
-The data set was trained on a VAE architecture with the following parameters:
+The data set was trained on a VAE and Beta-VAE architecture with the following parameters:
 ```
 Learning Rate: 3e-4
 Optimizer: Adam
 Loss: Binary Cross Entropy + KL Divergence
-Epochs: 20
+Epochs: 30
 ```
 ### Result:
-
-![Original Image](images/vae.png "Original Jet Image") ![Generated Image](images/vae_generated.png "Generated Jet Image")
-
-### Performance
-
-Mode  | Loss
-------------- | -------------
-Train  | 9.8182
-Validation | 9.6419
-
-![Train V/s Validation Loss](images/trainval.png)
-
+## VAE 
+![Original Image V/S Reconstructed for VAE](images/vae.png) 
+## Beta VAE
+![Original Image V/S Reconstructed for Beta-VAE](images/beta_vae.png)
+### Loss
+## VAE
+![Loss for VAE](images/loss_vae.png) 
+## Beta VAE
+![Loss for VAE](images/loss_beta.png) 
 ## Discussion
 
-As it can be seen from above the generated images are not very good. So reasons for that can be:
+# Conclusion:
 
-1. Since this is not typical RGB data the model does not behave in a way that it would for RGB data.
-2. Although traditional transformations can be applied there is not much difference. For Example, Rotating an image won't do us any good as the data is kind of rotation invariant. Similar for other transformations.
+As it can be seen from above the generate images are not very good. So reasons for that can be:
+1.   Since this is not typical RGB data the model does not behave in a way that it would for an RGB data.
+2.   Although traditional transformations can be applied but there is not much difference. For Example, Rotating a image won't do us any good as the data is kind of rotation invariate. Similar for other transformations.
 3. Since all of the dataset wasn't used so the training wasn't perfect. There may be a scope of Overfitting.
-4. The hyperparameters may not be right.
+4. The hyperparameters may not be right and further fine tuning will be neccessary.
+5. Using the Beta-VAE to understand the disentagled latent factore didn't helped. The reason may be data from all the channels may seem similar to the model.
 
 Ways to improve the model:
 
-1. Other Architectures need to be explored such as VQ-VAE or Beta-VAE.
-2. The hyperparameters should be tuned more.
-3. Other Generative models can be used to learn the representation such as Diffusion model etc.
-4. Since the images are not the typical RGB images and based on research converting them to graphs and applying Graph VAE may yield better results.
+
+
+1.   Other Architectures need to be explore.
+2.   The hyperparamters should be tuned more.
+3.   Other Generative models can be used to learn the representation such as Diffusion model etc.
+4. Since the images are not the typical RGB images and based on research converting them to graph and applying Graph VAE may yield better results.
