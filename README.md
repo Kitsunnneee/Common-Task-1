@@ -19,9 +19,9 @@ Epochs: 30
 ```
 ### Result:
 ## VAE 
-![Original Image V/S Reconstructed for VAE](images/vae.png) 
+![Original Image V/S Reconstructed for VAE](images/vae.png =250x250) 
 ## Beta VAE
-![Original Image V/S Reconstructed for Beta-VAE](images/beta_vae.png)
+![Original Image V/S Reconstructed for Beta-VAE](images/beta_vae.png =250x250)
 ### Loss
 ## VAE
 ![Loss for VAE](images/loss_vae.png) 
