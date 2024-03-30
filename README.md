@@ -19,9 +19,10 @@ Epochs: 30
 ```
 ### Result:
 ## VAE 
-<img src="images/vae.png" width="100" height="100">
+<img src="images/vae.png" width="250" height="250">\
+
 ## Beta VAE
-<img src="images/beta_vae.png" width="100" height="100">
+<img src="images/beta_vae.png" width="250" height="250">
 ### Loss
 ## VAE
 ![Loss for VAE](images/loss_vae.png) 
