@@ -27,11 +27,10 @@ Epochs: 30
 ![Loss for VAE](images/loss_vae.png) 
 ## Beta VAE
 ![Loss for VAE](images/loss_beta.png) 
-## Discussion
 
 # Conclusion:
 
-As it can be seen from above the generate images are not very good. So reasons for that can be:
+As it can be seen from above the generated images are not very good. So reasons for that can be:
 1.   Since this is not typical RGB data the model does not behave in a way that it would for an RGB data.
 2.   Although traditional transformations can be applied but there is not much difference. For Example, Rotating a image won't do us any good as the data is kind of rotation invariate. Similar for other transformations.
 3. Since all of the dataset wasn't used so the training wasn't perfect. There may be a scope of Overfitting.
