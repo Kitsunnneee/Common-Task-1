@@ -19,7 +19,7 @@ Epochs: 30
 ```
 ### Result:
 ## VAE 
-<img src="images/vae.png" width="350" height="500">\
+<img src="images/vae.png" width="350" height="500">
 
 ## Beta VAE
 <img src="images/beta_vae.png" width="350" height="500">
