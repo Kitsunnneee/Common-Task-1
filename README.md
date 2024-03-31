@@ -17,18 +17,18 @@ Optimizer: Adam
 Loss: Binary Cross Entropy + KL Divergence
 Epochs: 30
 ```
-### Result:
-## VAE 
+## Result:
+### VAE 
 <img src="images/vae.png" width="350" height="500">
 
-## Beta VAE
+### Beta VAE
 <img src="images/beta_vae.png" width="350" height="500">
 
-### Loss
-## VAE
+## Loss
+### VAE
 <img src="images/loss_vae.png" width="500" height="500">
 
-## Beta VAE
+### Beta VAE
 <img src="images/loss_beta.png" width="500" height="500">
 
 # Conclusion:
