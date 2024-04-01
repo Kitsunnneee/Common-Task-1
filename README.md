@@ -26,7 +26,7 @@ Epochs: 30
 
 ## Loss
 ### VAE
-<img src="images/loss_vae.png" width="500" height="500">
+<img src="images/loss_vae.png" width="640" height="480">
 
 ### Beta VAE
 <img src="images/loss_beta.png" width="500" height="500">
