@@ -35,10 +35,9 @@ Epochs: 30
 
 As it can be seen from above the generated images are not very good. The reasons for that can be:
 1.   Since this is not typical RGB data the model does not behave in a way that it would for RGB data.
-2.   Although traditional transformations can be applied there is not much difference. For Example, Rotating an image won't do us any good as the data is kind of rotation invariant. Similar to other transformations.
-3. Since all of the dataset wasn't used so the training wasn't perfect. There may be a scope of Overfitting.
+2.   Although traditional transformations can be applied they may not behave the same. This is because each pixel in jet images is the sensor reading. Thus, applying any transformation to that may lead to a change in that particular sensor reading.
 4. The hyperparameters may not be right and further fine-tuning will be necessary.
-5. Using the Beta-VAE to understand the disentangled latent factor didn't help. The reason may be data from all the channels may seem similar to the model.
+5. Using the Beta-VAE to understand the disentangled latent factor didn't help. The reason may be data from all the channels may seem similar to the model and it is not able to distinguish different features.
 
 Ways to improve the model:
 
