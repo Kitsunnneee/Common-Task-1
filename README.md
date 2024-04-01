@@ -19,17 +19,17 @@ Epochs: 30
 ```
 ## Result:
 ### VAE 
-<img src="images/vae.png" width="350" height="500">
+<img src="images/vae.png" width="1000" height="500">
 
 ### Beta VAE
-<img src="images/beta_vae.png" width="350" height="500">
+<img src="images/beta_vae.png" width="1000" height="500">
 
 ## Loss
 ### VAE
 <img src="images/loss_vae.png" width="640" height="480">
 
 ### Beta VAE
-<img src="images/loss_beta.png" width="500" height="500">
+<img src="images/loss_beta.png" width="640" height="480">
 
 # Conclusion:
 
